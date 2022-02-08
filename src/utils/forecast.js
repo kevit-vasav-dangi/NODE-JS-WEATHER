@@ -3,7 +3,7 @@ const forecast=(longitude,latitude,location,callback)=>{
 
 
 const url = "http://api.weatherstack.com/current?access_key=88a94fb8826fa8aa4d2ea433b8c79b66&query="+encodeURIComponent(longitude)+","+encodeURIComponent(latitude)+"&units=f"
-// console.log(url)
+
     axios.get(url)
     .then((response) =>{
         // console.log(response)

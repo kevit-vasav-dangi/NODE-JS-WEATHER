@@ -6,8 +6,7 @@ const url = "http://api.weatherstack.com/current?access_key=88a94fb8826fa8aa4d2e
 
     axios.get(url)
     .then((response) =>{
-        // console.log(response)
-        // console.log('check data =',data)
+         // console.log('check data =',data)
         //console.log('check error =',error)
 
             if(response.error){
